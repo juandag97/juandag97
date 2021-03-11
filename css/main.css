@@ -17,7 +17,7 @@ body ul {
 
 header{
     width: 100%;
-    height: 60px;
+    height: 80px;
     font-family: 'Roboto', sans-serif;
     background-color: #1d1d1d;
 }
@@ -30,28 +30,101 @@ header nav {
 
 header nav .nav-list{
     width: 250px;
-    height: auto;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 1rem 0 0;
+    padding: 0rem 1rem 0 0;
 }
 
 nav .nav-list a {
     text-decoration: none;
     margin-right: 12px;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 main {
     width: 100%;
-    height: 700px;
+    height: auto;
+    display: block;
     background-color: #0a192f;
+}
+
+main .central-content{
+    width: 75%;
+    background-color: #0b2d2d;
+    margin: auto;
+    padding: 50px;
+    max-height: 1000px;
+}
+
+main .myself{
+    display: block;
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+main .second-myself{
+    display: block;
+    padding: 30px 0 30px;
+    font-size: 25px;
+}
+
+main .myself-details{
+    display: block;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+main .about-me{
+    width: 75%;
+    background-color: #1d1d1d;
+    margin: auto;
+    padding: 50px;
+    max-height: 1000px;
+}
+
+main .full-about-me{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+}
+
+main .initial-about-me{
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+main .second-about-me{
+    font-size: 30px;
+}
+
+main .text-about-me{
+    width: 80%;
+    font-size: 15px;
+    padding: 0 20px 0 0;
+    display: inline-block;
+}
+
+main .details-about-me{
+    font-size: 20px;
+}
+
+/* main .profile-img-about-me{
+    width: 35%;
+    display: inline-block;
+
+} */
+
+main .details-about-me{
+    display: block;
+    padding: 10px 0;
 }
 
 footer {
     width: 100%;
-    height: 100px;
-    background-color: #1d1d1d;
+    height: 80px;
+    display: block;
+    background-color: #0b2d2d;
 }
