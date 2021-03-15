@@ -8,6 +8,13 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: white;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
 
 body ul {
@@ -93,7 +100,6 @@ main .about-me{
     background-color: #1d1d1d;
     margin: auto;
     padding: 50px;
-    max-height: 1000px;
 }
 
 main .full-about-me{
@@ -122,20 +128,59 @@ main .details-about-me{
     font-size: 20px;
 }
 
-/* main .profile-img-about-me{
-    width: 35%;
-    display: inline-block;
-
-} */
-
 main .details-about-me{
     display: block;
     padding: 10px 0;
+}
+
+main .contact-me{
+    width: 75%;
+    height: 40vh;
+    background-color: #0b2d2d;
+    margin: auto;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+main .central-contact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .title-contact{
+    font-size: 30px;
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
+}
+
+main .section-contact{
+    display: block;
+    padding: 20px;
+}
+
+main .button-contact{
+    display: block;
 }
 
 footer {
     width: 100%;
     height: 80px;
     display: block;
-    background-color: #0b2d2d;
+    background-color: #1d1d1d;
+}
+
+footer .footer-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
