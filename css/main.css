@@ -30,6 +30,7 @@ header{
     width: 100%;
     height: 80px;
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
     background-color: #0e1c31;
 }
 
@@ -40,7 +41,7 @@ header nav {
 }
 
 header nav .nav-list{
-    width: 250px;
+    width: 350px;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -52,7 +53,7 @@ nav .nav-list a {
     text-decoration: none;
     margin-right: 12px;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 main {
@@ -67,7 +68,7 @@ main .central-content{
     background-color: #0a192f;
     margin: auto;
     padding: 50px;
-    height: 650px;
+    height: 800px;
 }
 
 main .central-myself{
@@ -83,7 +84,7 @@ main .central-myself{
 main .myself{
     display: block;
     padding: 30px 0;
-    font-size: 30px;
+    font-size: 45px;
     font-family: var(--second_roboto);
     font-weight: 700;
 }
@@ -91,7 +92,7 @@ main .myself{
 main .second-myself{
     display: block;
     padding: 30px 0 30px;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 main .myself-details{
@@ -99,7 +100,7 @@ main .myself-details{
     width: 70%;
     text-align: justify;
     padding: 10px 0;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 main .about-me{
@@ -111,33 +112,33 @@ main .about-me{
 
 main .full-about-me{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-gap: 20px;
 }
 
 main .initial-about-me{
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 main .second-about-me{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 main .text-about-me{
     width: 80%;
-    font-size: 15px;
+    font-size: 30px;
     padding: 0 20px 0 0;
     display: inline-block;
 }
 
 main .details-about-me{
-    font-size: 20px;
+    font-size: 25px;
     text-align: justify;
 }
 
 main .details-about-me .details-paragraph{
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 main .details-about-me{
@@ -166,7 +167,7 @@ main .central-contact{
 }
 
 main .title-contact{
-    font-size: 30px;
+    font-size: 45px;
     justify-content: center;
     margin: 0 auto;
     display: block;
@@ -175,8 +176,9 @@ main .title-contact{
 main .section-contact{
     display: block;
     padding: 20px;
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: justify;
     width: 60%;
 }
 
@@ -186,11 +188,11 @@ main .button-contact{
 
 main .button-contact .button{
     font-family: 'Roboto', 'sans-serif';
-    font-size: 15px;
+    font-size: 25px;
     text-decoration: none;
     background-color: #EEEEEE;
     color: #333333;
-    padding: 15px;
+    padding: 25px;
     border-top: 1px solid #CCCCCC;
     border-right: 1px solid #333333;
     border-bottom: 1px solid #333333;
@@ -211,4 +213,5 @@ footer .footer-main{
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 25px;
 }
