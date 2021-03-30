@@ -1,24 +1,31 @@
 * {
-  margin: 0;
-  padding: 0;  
+    margin: 0;
+    padding: 0;
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-:root{
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+:root {
     --second_roboto: @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+    --high-font-size: 45px;
+    --less-high-font-size: 35px;
+    --medium-font-size: 30px;
+    --low-font-size: 25px;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: white;
     /* Hide scrollbar for IE, Edge and Firefox */
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     display: none;
 }
 
@@ -26,12 +33,13 @@ body ul {
     list-style: none;
 }
 
-header{
+header {
     width: 100%;
     height: 80px;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     background-color: #0e1c31;
+    position: fixed;
 }
 
 header nav {
@@ -40,7 +48,7 @@ header nav {
     height: auto;
 }
 
-header nav .nav-list{
+header nav .nav-list {
     width: 350px;
     height: 80px;
     display: flex;
@@ -53,7 +61,7 @@ nav .nav-list a {
     text-decoration: none;
     margin-right: 12px;
     color: #ffffff;
-    font-size: 30px;
+    font-size: var(--medium-font-size);
 }
 
 main {
@@ -63,7 +71,7 @@ main {
     background-color: #0a192f;
 }
 
-main .central-content{
+main .central-content {
     width: 75%;
     background-color: #0a192f;
     margin: auto;
@@ -71,7 +79,7 @@ main .central-content{
     height: 800px;
 }
 
-main .central-myself{
+main .central-myself {
     width: 100%;
     height: 80%;
     display: flex;
@@ -81,72 +89,72 @@ main .central-myself{
     align-items: flex-start;
 }
 
-main .myself{
+main .myself {
     display: block;
     padding: 30px 0;
-    font-size: 45px;
+    font-size: var(--high-font-size);
     font-family: var(--second_roboto);
     font-weight: 700;
 }
 
-main .second-myself{
+main .second-myself {
     display: block;
     padding: 30px 0 30px;
-    font-size: 35px;
+    font-size: var(--less-high-font-size);
 }
 
-main .myself-details{
+main .myself-details {
     display: block;
     width: 70%;
     text-align: justify;
     padding: 10px 0;
-    font-size: 30px;
+    font-size: var(--medium-font-size);
 }
 
-main .about-me{
+main .about-me {
     width: 75%;
     background-color: #0a192f;
     margin: auto;
     padding: 50px;
 }
 
-main .full-about-me{
+main .full-about-me {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-gap: 20px;
 }
 
-main .initial-about-me{
+main .initial-about-me {
     padding: 20px 0;
     font-size: 45px;
 }
 
-main .second-about-me{
+main .second-about-me {
     font-size: 40px;
 }
 
-main .text-about-me{
+main .text-about-me {
     width: 80%;
     font-size: 30px;
     padding: 0 20px 0 0;
     display: inline-block;
 }
 
-main .details-about-me{
+main .details-about-me {
     font-size: 25px;
     text-align: justify;
 }
 
-main .details-about-me .details-paragraph{
+main .details-about-me .details-paragraph {
     margin: 20px 0;
 }
 
-main .details-about-me{
+main .details-about-me {
     display: block;
     padding: 10px 0;
 }
 
-main .contact-me{
+main .contact-me {
     width: 75%;
     height: 75vh;
     background-color: #0a192f;
@@ -156,7 +164,7 @@ main .contact-me{
     justify-content: center;
 }
 
-main .central-contact{
+main .central-contact {
     width: 100%;
     height: 100%;
     display: flex;
@@ -166,27 +174,27 @@ main .central-contact{
     flex-direction: column;
 }
 
-main .title-contact{
-    font-size: 45px;
+main .title-contact {
+    font-size: var(--high-font-size);
     justify-content: center;
     margin: 0 auto;
     display: block;
 }
 
-main .section-contact{
+main .section-contact {
     display: block;
     padding: 20px;
     margin-bottom: 50px;
-    font-size: 30px;
+    font-size: var(--medium-font-size);
     text-align: justify;
     width: 60%;
 }
 
-main .button-contact{
+main .button-contact {
     display: block;
 }
 
-main .button-contact .button{
+main .button-contact .button {
     font-family: 'Roboto', 'sans-serif';
     font-size: 25px;
     text-decoration: none;
@@ -206,12 +214,19 @@ footer {
     background-color: #0a192f;
 }
 
-footer .footer-main{
+footer .footer-main {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 25px;
+    font-size: var(--low-font-size);
 }
+
+
+/* @media only screen and (max-width: 700px) {
+    body {
+        background-color: red;
+    }
+} */
