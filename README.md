@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 
 ⚡ I like to play the guitar, the piano and the drums, with a little bit of composition. Plus I'm a car lover, especially of JDM cars like: the Nissan R34-Skyline, the Nissan GTR-NISMO, the Toyota Supra, and the Subaru WRX. Now I have a Chevrolet Sail (honest work). I hope to build a blog soon inside my webpage, about car tunning, electric cars, technology news, software development, artificial intelligence, and a little bit of everything.
 
-⚡ Here it is my website: https://juandag97.github.io/meMyselfAndI/
+⚡ Here it is my website: https://juandag97.github.io
 
 PS: Just honest work 😄
 
