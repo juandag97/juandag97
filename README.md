@@ -21,9 +21,9 @@ Here are some ideas to get you started:
 
 ### What do I do for fun?
 
-⚡ I’m into music—love playing the guitar, piano, and drums, and I mess around a bit with composing too. I’m also a huge car enthusiast, especially when it comes to JDM legends like the Nissan R34 Skyline, GTR NISMO, Toyota Supra, and Subaru WRX. Right now I drive a humble Chevrolet Sail, but I’m dreaming of picking up a JDM project car—maybe a Mitsubishi Evo boxtype, a Subaru Impreza, or a 90s Toyota to bring back to life. I’m also planning to launch a blog on my site soon where I’ll share thoughts on car tuning, electric vehicles, tech news, software dev, AI, and whatever else I’m into at the moment.
+⚡ I’m into music—love playing the guitar, piano, djing, and drums, and I mess around a bit with composing too. I’m also a huge car enthusiast, especially when it comes to JDM legends like the Nissan R34 Skyline, GTR NISMO, Toyota Supra, and Subaru WRX. Right now I drive a Chevrolet Sail, but I’m dreaming of picking up a JDM project car—maybe a Mitsubishi Evo boxtype, a Subaru Impreza, a 90s Toyota to bring back to life, or even a ford mustang 2018-2020. Here it is my blog where I talk about cars and a little bit about everything: https://juandavid.lovable.app
 
-⚡ Here it is my website: https://juandag97.github.io (http://juandavidacosta.com)
+⚡ Here it is my website: https://juandavidacosta.com 
 
 PS: Just honest work 😄
 
